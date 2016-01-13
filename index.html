@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Appointment Center</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Appointment Center</h1>
+      <p>Wanna hang out?! Let's schedule a time to hang out together!</p>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="name">Name (first and last)</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="date">Whne do you want to hang?</label>
+            <input id="date" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="start-tome">Let's meet up at </label>
+            <input id="start-time" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="end">We'll say goodbye at </label>
+            <input id="end" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Place Order</button>
+        </form>
+      </div>
+
+      <div id="hang-out">
+        <h1>We're gonna have so much fun!</h1>
+        <p>Thanks, <span class="name"></span> for scheduling a time to hang out!</p>
+        <p>I'll meet you at Townshends Tea House on <span class="date"></span>, at <span class="start"></start>. We'll hang out until <span class="end"></span>, at which point we will part ways.<p>
+      </div>
+
+    </div>
+  </body>
+</html>
