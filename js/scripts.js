@@ -1,4 +1,4 @@
-$(document).read(function () {
+$(document).ready(function () {
   $("#blanks form").submit(function(event) {
     var nameInput = $("input#name").val();
     var dateInput = $("input#date").val();
